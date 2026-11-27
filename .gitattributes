@@ -1,3 +1,6 @@
 *.ipynb filter=nbstripout
 *.ipynb diff=ipynb
 *.pbix binary
+
+# Preserve original raw data
+data/raw/** -text
